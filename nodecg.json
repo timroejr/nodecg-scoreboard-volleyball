@@ -1,0 +1,10 @@
+{
+	"name": "volleyballScoreboard",
+	"version": "1.0",
+	"nodecgDependency": ">=0.2.1",
+	"description": "Scoreboard System for Volleyball Games",
+	"authors" : [
+		"Timothy Roe, Jr. <troe@roeboatcorp.com>"
+	],
+	"license": "MIT"
+}

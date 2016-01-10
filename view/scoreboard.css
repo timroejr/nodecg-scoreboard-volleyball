@@ -1,0 +1,138 @@
+#container {
+	width: 1280px;
+	height: 720px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#scoreboard {
+	background-color: #f4f4f5;
+	width: 490px;
+	height: 28px;
+	border: 2px ridge #969696;
+	z-index:3;
+	margin:auto;
+	margin-top:600px;
+}
+
+#logo {
+	position:absolute;
+	left:388px;
+	height:28px;
+	width:28px;
+	display:table-cell;
+	vertical-align:middle;
+	z-index:7;
+	background: url("/view/img/logo.png") 50% 50%/contain no-repeat;
+	border: 1px ridge #969696;
+}
+
+#set {
+	position:absolute;
+	height:28px;
+	width:70px;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	z-index:7;
+}
+
+#set-font {
+	margin: auto;
+	font-family: 'Open Sans';
+	font-weight:700;
+	font-size:20px;
+	color:#000000;
+	text-align:center;
+}
+
+#away-team-name {
+	position:absolute;
+	left:466px;
+	background-color:#0065A4;
+	height:28px;
+	width:180px;
+	line-height:28px;
+	display:table-cell;
+	verticle-align: middle;
+	z-index:5;
+}
+
+#away-team-font {
+	margin: auto;
+	font-family: 'Open Sans';
+	font-weight:600;
+	font-size:20px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#away-team-score {
+	position:absolute;
+	left:646px;
+	background-color:#FFFFFF;
+	height:28px;
+	width:30px;
+	line-height:28px;
+	display:table-cell;
+	verticle-align: middle;
+	z-index:6;
+}
+
+#away-team-score-font {
+	margin: auto;
+	font-family: 'Open Sans';
+	font-weight:600;
+	font-size:20px;
+	color:#000000;
+	text-align:center;
+}
+
+#home-team-name {
+	position:absolute;
+	left:676px;
+	background-color:#0065A4;
+	height:28px;
+	width:180px;
+	line-height:28px;
+	display:table-cell;
+	verticle-align: middle;
+	z-index:10;
+}
+
+#home-team-font {
+	margin: auto;
+	font-family: 'Open Sans';
+	font-weight:600;
+	font-size:20px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#home-team-score {
+	position:absolute;
+	left:856px;
+	background-color:#ffffff;
+	height:28px;
+	width:30px;
+	line-height:28px;
+	display:table-cell;
+	verticle-align: middle;
+	z-index:11;
+}
+
+#home-team-score-font {
+	margin: auto;
+	font-family: 'Open Sans';
+	font-weight:600;
+	font-size:20px;
+	color:#000000;
+	text-align:center;
+}
+
+
+
+
+

@@ -1,0 +1,8 @@
+{
+	"name":"volleyballScoreboard",
+	"dependencies":{
+		"jquery":"^2.1.0",
+		"gsap":"^1.15.0",
+		"moment": "2.0.0"
+		}
+}
