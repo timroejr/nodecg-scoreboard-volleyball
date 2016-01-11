@@ -24,3 +24,9 @@ $('#scoreboard-show').click(function() {
 $('#scoreboard-hide').click(function() {
 	nodecg.sendMessage('hideScoreboard');
 });
+
+$('#setUpdate').click(function() {
+    var data = {}
+    data.setData = $('#set-data').val();
+    nodecg.sendMessage('updateSet', data);
+});
