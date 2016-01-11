@@ -2,7 +2,7 @@ $(function() {
 	nodecg.listenFor('showScoreboard', showScoreboard);
 	nodecg.listenFor('hideScoreboard', hideScoreboard);
 	nodecg.listenFor('updateScore', updateScore);
-	//nodecg.listenFor('updateSet', updateSet);
+	nodecg.listenFor('updateSet', updateSet);
 	nodecg.listenFor('updateTeams', teams);
 
 	var scoresVisible = false;
@@ -25,6 +25,10 @@ function hideScoreboard() {
 function updateScore(data) {
 	$('#away-team-score-font').text(data.awayScore);
 	$('#home-team-score-font').text(data.homeScore);
+}
+
+function updateSet(data) {
+    $('#set-font').text(data.setData);
 }
 
 function teams(data) {
